@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EEF0340845836ACF03A672341A5325C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		342048179CBB85B3D60171B58B2C637E /* Pods-SZEarthFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB2C7930BE5A14068CFAABBC4B36727 /* Pods-SZEarthFramework_Example-dummy.m */; };
+		4B0E83E272D5D52804AC1CDE8FFE2E13 /* Pods-SZEarthFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 599B3E6ACA3AAFB57B5564E129955C16 /* Pods-SZEarthFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A8366E7386D861C4FE991B4BD77CC6 /* SZEarthFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68395BABF86317A3450B7470B9F65F38 /* SZEarthFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9974421D4581F2B7B96EDEE63732C35F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BF2DC28DCFF0A96AA5AB662E52494FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB26146E7BBE7582A8CD61EC8DC2D7A3 /* Pods-SZEarthFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12041AD2C3BA3BFEF6DE85C1478DB /* Pods-SZEarthFramework_Tests-dummy.m */; };
+		D50CED700903E00586FAE345BDBFB68E /* Pods-SZEarthFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 280DBA6E1BBAAC8C17B57C8B9BCCF3A0 /* Pods-SZEarthFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4352EDB101DBF69E2AF5DC1EA709DF /* SZEarthFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 370310AB8E5286C01E7B3CC05E65E286 /* SZEarthFramework-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD064D8FE0AC12F4F92D00D7DDFAF7E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D987AE7193EEA4190CBBC2C60892B26;
+			remoteInfo = SZEarthFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1717A47B73F47AEE0BC4C55267EA0DC2 /* Pods_SZEarthFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZEarthFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		280DBA6E1BBAAC8C17B57C8B9BCCF3A0 /* Pods-SZEarthFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SZEarthFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2FF12041AD2C3BA3BFEF6DE85C1478DB /* Pods-SZEarthFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZEarthFramework_Tests-dummy.m"; sourceTree = "<group>"; };
+		370310AB8E5286C01E7B3CC05E65E286 /* SZEarthFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SZEarthFramework-dummy.m"; sourceTree = "<group>"; };
+		39195EB427A4532C9666DCF564F3E788 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F7DC814DFC3420CB929BB992867353 /* Pods-SZEarthFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		599B3E6ACA3AAFB57B5564E129955C16 /* Pods-SZEarthFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SZEarthFramework_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B1E9ED9DFEEFAD3128FFE830FD7DA16 /* Pods-SZEarthFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5B960C28EA24BC63C87A8A58B2375CCF /* Pods-SZEarthFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZEarthFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68395BABF86317A3450B7470B9F65F38 /* SZEarthFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZEarthFramework-umbrella.h"; sourceTree = "<group>"; };
+		6EEFDC9B3BC195BEB99BDC2FD92DEB47 /* Pods-SZEarthFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Example-resources.sh"; sourceTree = "<group>"; };
+		71792E440C99D1606E5344A0642938B6 /* Pods-SZEarthFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SZEarthFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		82A97C85A1A7D7C23DAD27B53379365D /* Pods-SZEarthFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZEarthFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		871C1F79FC0E5F8CC8B27CB733D0FF27 /* SZEarthFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZEarthFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		890642012852490631FA3C0010292E8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4FAA10CF1674EAC7112929CC6AFDDF /* Pods-SZEarthFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SZEarthFramework_Example.modulemap"; sourceTree = "<group>"; };
+		90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZEarthFramework.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15BFC889E361B657EF3ECA0A5D180E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB2C7930BE5A14068CFAABBC4B36727 /* Pods-SZEarthFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZEarthFramework_Example-dummy.m"; sourceTree = "<group>"; };
+		ACA84030672650075748B425D192B537 /* SZEarthFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZEarthFramework-prefix.pch"; sourceTree = "<group>"; };
+		BC39834C111F16FE0CA46E2AF4D36005 /* Pods-SZEarthFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C1928FD3D31E5FA21BF6E96D462DCDF3 /* Pods-SZEarthFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Tests-resources.sh"; sourceTree = "<group>"; };
+		C7EF0C220846E918D6BA532BF6F6EA86 /* SZEarthFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SZEarthFramework.modulemap; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D012AE5081AC28E44DA298473147268E /* Pods-SZEarthFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9163549F8552661D98E7260E51E25DA /* Pods_SZEarthFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZEarthFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE2D00CE406A044203829970FDFFD0B /* Pods-SZEarthFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F494CF34ED10881112BE3D5D85DEC51D /* Pods-SZEarthFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZEarthFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9A6F3BD324FF27889E1B568E0BBCCD6 /* Pods-SZEarthFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FBA4D905C6EE95EE50DB28B1F7630297 /* Pods-SZEarthFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZEarthFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DD9ACBD4010C444B2AF92CB693ED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEF0340845836ACF03A672341A5325C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C9963F54FFE3BD8698A1D571F018DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9974421D4581F2B7B96EDEE63732C35F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A618740F76C455E204FF83652BAC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2DC28DCFF0A96AA5AB662E52494FD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1285645803732451AEF03501E17BE080 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF83505716193BB360EE2A57EACC47D6 /* Pods-SZEarthFramework_Example */,
+				E5103EF63C4D7E081F805F4DF72ADB22 /* Pods-SZEarthFramework_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		186A652DA9EA927DFE89930B149EE7A3 /* SZEarthFramework */ = {
+			isa = PBXGroup;
+			children = (
+				ED94A21215890E0C0DBC0ADDD087F4C2 /* Classes */,
+			);
+			path = SZEarthFramework;
+			sourceTree = "<group>";
+		};
+		417BCFD0AF6CB1AC7078603FB3F0FC58 /* SZEarthFramework */ = {
+			isa = PBXGroup;
+			children = (
+				BD1BB7061C9AD9EE9112B0246F06F16E /* Support Files */,
+				186A652DA9EA927DFE89930B149EE7A3 /* SZEarthFramework */,
+			);
+			name = SZEarthFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4442D56CFB17E54DB8A6987B74F4945F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				417BCFD0AF6CB1AC7078603FB3F0FC58 /* SZEarthFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4442D56CFB17E54DB8A6987B74F4945F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6E9E40FE77534E52DA1B82461136BDA /* Products */,
+				1285645803732451AEF03501E17BE080 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1BB7061C9AD9EE9112B0246F06F16E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15BFC889E361B657EF3ECA0A5D180E8 /* Info.plist */,
+				C7EF0C220846E918D6BA532BF6F6EA86 /* SZEarthFramework.modulemap */,
+				90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */,
+				370310AB8E5286C01E7B3CC05E65E286 /* SZEarthFramework-dummy.m */,
+				ACA84030672650075748B425D192B537 /* SZEarthFramework-prefix.pch */,
+				68395BABF86317A3450B7470B9F65F38 /* SZEarthFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SZEarthFramework";
+			sourceTree = "<group>";
+		};
+		C6E9E40FE77534E52DA1B82461136BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1717A47B73F47AEE0BC4C55267EA0DC2 /* Pods_SZEarthFramework_Example.framework */,
+				D9163549F8552661D98E7260E51E25DA /* Pods_SZEarthFramework_Tests.framework */,
+				871C1F79FC0E5F8CC8B27CB733D0FF27 /* SZEarthFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF83505716193BB360EE2A57EACC47D6 /* Pods-SZEarthFramework_Example */ = {
+			isa = PBXGroup;
+			children = (
+				890642012852490631FA3C0010292E8E /* Info.plist */,
+				8A4FAA10CF1674EAC7112929CC6AFDDF /* Pods-SZEarthFramework_Example.modulemap */,
+				5B960C28EA24BC63C87A8A58B2375CCF /* Pods-SZEarthFramework_Example-acknowledgements.markdown */,
+				82A97C85A1A7D7C23DAD27B53379365D /* Pods-SZEarthFramework_Example-acknowledgements.plist */,
+				AAB2C7930BE5A14068CFAABBC4B36727 /* Pods-SZEarthFramework_Example-dummy.m */,
+				DEE2D00CE406A044203829970FDFFD0B /* Pods-SZEarthFramework_Example-frameworks.sh */,
+				6EEFDC9B3BC195BEB99BDC2FD92DEB47 /* Pods-SZEarthFramework_Example-resources.sh */,
+				599B3E6ACA3AAFB57B5564E129955C16 /* Pods-SZEarthFramework_Example-umbrella.h */,
+				BC39834C111F16FE0CA46E2AF4D36005 /* Pods-SZEarthFramework_Example.debug.xcconfig */,
+				5B1E9ED9DFEEFAD3128FFE830FD7DA16 /* Pods-SZEarthFramework_Example.release.xcconfig */,
+			);
+			name = "Pods-SZEarthFramework_Example";
+			path = "Target Support Files/Pods-SZEarthFramework_Example";
+			sourceTree = "<group>";
+		};
+		E5103EF63C4D7E081F805F4DF72ADB22 /* Pods-SZEarthFramework_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39195EB427A4532C9666DCF564F3E788 /* Info.plist */,
+				71792E440C99D1606E5344A0642938B6 /* Pods-SZEarthFramework_Tests.modulemap */,
+				FBA4D905C6EE95EE50DB28B1F7630297 /* Pods-SZEarthFramework_Tests-acknowledgements.markdown */,
+				F494CF34ED10881112BE3D5D85DEC51D /* Pods-SZEarthFramework_Tests-acknowledgements.plist */,
+				2FF12041AD2C3BA3BFEF6DE85C1478DB /* Pods-SZEarthFramework_Tests-dummy.m */,
+				51F7DC814DFC3420CB929BB992867353 /* Pods-SZEarthFramework_Tests-frameworks.sh */,
+				C1928FD3D31E5FA21BF6E96D462DCDF3 /* Pods-SZEarthFramework_Tests-resources.sh */,
+				280DBA6E1BBAAC8C17B57C8B9BCCF3A0 /* Pods-SZEarthFramework_Tests-umbrella.h */,
+				D012AE5081AC28E44DA298473147268E /* Pods-SZEarthFramework_Tests.debug.xcconfig */,
+				F9A6F3BD324FF27889E1B568E0BBCCD6 /* Pods-SZEarthFramework_Tests.release.xcconfig */,
+			);
+			name = "Pods-SZEarthFramework_Tests";
+			path = "Target Support Files/Pods-SZEarthFramework_Tests";
+			sourceTree = "<group>";
+		};
+		ED94A21215890E0C0DBC0ADDD087F4C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27F82B6FC3966E9ABF28F733E818E227 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50CED700903E00586FAE345BDBFB68E /* Pods-SZEarthFramework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DDDF1854BEB2310405564290C46BD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0E83E272D5D52804AC1CDE8FFE2E13 /* Pods-SZEarthFramework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0656E0D891AF4DCA119B3820D72A3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A8366E7386D861C4FE991B4BD77CC6 /* SZEarthFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		288B429B9E17AD353BD99B93167D2C98 /* Pods-SZEarthFramework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E78631AE8753A1B5008ABDDAC69D6DC /* Build configuration list for PBXNativeTarget "Pods-SZEarthFramework_Example" */;
+			buildPhases = (
+				10BF5883F8571E51CA18983D0773B7BE /* Sources */,
+				17DD9ACBD4010C444B2AF92CB693ED3D /* Frameworks */,
+				74DDDF1854BEB2310405564290C46BD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF20583DBD927A3CCA143C1AF90CF8B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SZEarthFramework_Example";
+			productName = "Pods-SZEarthFramework_Example";
+			productReference = 1717A47B73F47AEE0BC4C55267EA0DC2 /* Pods_SZEarthFramework_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D987AE7193EEA4190CBBC2C60892B26 /* SZEarthFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E158F61083F1CDF75DFCA1E2304F2E60 /* Build configuration list for PBXNativeTarget "SZEarthFramework" */;
+			buildPhases = (
+				0E0FA60B7E4FDA30ECCA6FEC755D1E2A /* Sources */,
+				74C9963F54FFE3BD8698A1D571F018DD /* Frameworks */,
+				EB0656E0D891AF4DCA119B3820D72A3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZEarthFramework;
+			productName = SZEarthFramework;
+			productReference = 871C1F79FC0E5F8CC8B27CB733D0FF27 /* SZEarthFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7E5ABC14B3EA27F89F17A13D445726E /* Pods-SZEarthFramework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCD1E7D18739DD1C5ADC0EFC8E73B67 /* Build configuration list for PBXNativeTarget "Pods-SZEarthFramework_Tests" */;
+			buildPhases = (
+				6B8E418DEA63B1C8C022790476D1FF3C /* Sources */,
+				82A618740F76C455E204FF83652BAC16 /* Frameworks */,
+				27F82B6FC3966E9ABF28F733E818E227 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SZEarthFramework_Tests";
+			productName = "Pods-SZEarthFramework_Tests";
+			productReference = D9163549F8552661D98E7260E51E25DA /* Pods_SZEarthFramework_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6E9E40FE77534E52DA1B82461136BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288B429B9E17AD353BD99B93167D2C98 /* Pods-SZEarthFramework_Example */,
+				E7E5ABC14B3EA27F89F17A13D445726E /* Pods-SZEarthFramework_Tests */,
+				9D987AE7193EEA4190CBBC2C60892B26 /* SZEarthFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E0FA60B7E4FDA30ECCA6FEC755D1E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4352EDB101DBF69E2AF5DC1EA709DF /* SZEarthFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BF5883F8571E51CA18983D0773B7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342048179CBB85B3D60171B58B2C637E /* Pods-SZEarthFramework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8E418DEA63B1C8C022790476D1FF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB26146E7BBE7582A8CD61EC8DC2D7A3 /* Pods-SZEarthFramework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF20583DBD927A3CCA143C1AF90CF8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SZEarthFramework;
+			target = 9D987AE7193EEA4190CBBC2C60892B26 /* SZEarthFramework */;
+			targetProxy = FD064D8FE0AC12F4F92D00D7DDFAF7E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16D07695F163FB28CAB168E4459AD169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D012AE5081AC28E44DA298473147268E /* Pods-SZEarthFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SZEarthFramework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZEarthFramework_Tests/Pods-SZEarthFramework_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SZEarthFramework_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60FBA2883F2917E6D410A6EA304014DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A6F3BD324FF27889E1B568E0BBCCD6 /* Pods-SZEarthFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SZEarthFramework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZEarthFramework_Tests/Pods-SZEarthFramework_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SZEarthFramework_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A712B0D3E1AAA8E60C3F6E718BA3032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1E9ED9DFEEFAD3128FFE830FD7DA16 /* Pods-SZEarthFramework_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SZEarthFramework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZEarthFramework_Example/Pods-SZEarthFramework_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SZEarthFramework_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7634E429DD9204D5A96459278FF09C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SZEarthFramework/SZEarthFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SZEarthFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SZEarthFramework/SZEarthFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SZEarthFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB883D2F20B55AAF0C4F2FCD4875113F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC39834C111F16FE0CA46E2AF4D36005 /* Pods-SZEarthFramework_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SZEarthFramework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZEarthFramework_Example/Pods-SZEarthFramework_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SZEarthFramework_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFFF9D4AB9B4A9A4098711077EAE4250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SZEarthFramework/SZEarthFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SZEarthFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SZEarthFramework/SZEarthFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SZEarthFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E78631AE8753A1B5008ABDDAC69D6DC /* Build configuration list for PBXNativeTarget "Pods-SZEarthFramework_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB883D2F20B55AAF0C4F2FCD4875113F /* Debug */,
+				A712B0D3E1AAA8E60C3F6E718BA3032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCD1E7D18739DD1C5ADC0EFC8E73B67 /* Build configuration list for PBXNativeTarget "Pods-SZEarthFramework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D07695F163FB28CAB168E4459AD169 /* Debug */,
+				60FBA2883F2917E6D410A6EA304014DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E158F61083F1CDF75DFCA1E2304F2E60 /* Build configuration list for PBXNativeTarget "SZEarthFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFF9D4AB9B4A9A4098711077EAE4250 /* Debug */,
+				B7634E429DD9204D5A96459278FF09C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

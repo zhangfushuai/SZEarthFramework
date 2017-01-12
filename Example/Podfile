@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SZEarthFramework_Example' do
+  pod 'SZEarthFramework', :path => '../'
+
+  target 'SZEarthFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

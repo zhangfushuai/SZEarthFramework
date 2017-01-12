@@ -1,0 +1,16 @@
+PODS:
+  - SZEarthFramework (0.1.0)
+
+DEPENDENCIES:
+  - SZEarthFramework (from `../`)
+
+EXTERNAL SOURCES:
+  SZEarthFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SZEarthFramework: 8b38754dfd9044047d0d70d9127faffc4ce64336
+
+PODFILE CHECKSUM: 11aa7863505c34730a802fb318aecef750ef20ba
+
+COCOAPODS: 1.2.0.beta.1
