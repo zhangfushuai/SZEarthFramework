@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SZTool.h"
 
 FOUNDATION_EXPORT double SZEarthFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char SZEarthFrameworkVersionString[];

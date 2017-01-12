@@ -7,12 +7,21 @@
 //
 
 #import "SZAppDelegate.h"
+#import <SZEarthFramework/SZTool.h>
 
 @implementation SZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    
+    NSLog(@"44");
+    
+    [[SZTool new] fs];
+    
+    NSLog(@"33");
+
+    
     return YES;
 }
 

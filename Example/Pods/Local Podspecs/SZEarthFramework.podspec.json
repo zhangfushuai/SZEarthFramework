@@ -1,9 +1,8 @@
 {
   "name": "SZEarthFramework",
   "version": "0.1.0",
-  "summary": "A short description of SZEarthFramework.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SZEarthFramework",
+  "summary": "iptiondescriptiondescrip tiondescriptiond escri ndescripti ondescrip tiondescript iondescr iptiondescr iptionon of SZEarthFramework.",
+  "homepage": "https://github.com/zhangfushuai/SZEarthFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,20 @@
     "shuai": "1558391434@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SZEarthFramework.git",
+    "git": "https://github.com/zhangfushuai/SZEarthFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SZEarthFramework/Classes/**/*"
+  "source_files": "SZEarthFramework/Classes/*.{h,m}",
+  "resource_bundles": {
+    "SZEarthFramework": [
+      "SZEarthFramework/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }

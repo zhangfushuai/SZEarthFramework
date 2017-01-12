@@ -7,18 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EEF0340845836ACF03A672341A5325C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		014B0E013559E08A98816F0C2FB411E0 /* LOGO@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0710E6AE5902FB9F4D3E93C9DC5D79E8 /* LOGO@3x.png */; };
+		0426095ADB6A9CA72C8A0DC3E7BDFEE7 /* 颜色左手.png in Resources */ = {isa = PBXBuildFile; fileRef = AF339396F91635B08EC2E92AA06D1574 /* 颜色左手.png */; };
+		05FB45821CA976AAADC5CC5986827CEE /* btn_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFFEE78AB371A920851427264248D849 /* btn_start@2x.png */; };
+		0748929D9089C0D3EAF31F623AFB7576 /* 颜色右手.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA941F61F3CE327189C8685E3D8CBA9 /* 颜色右手.png */; };
+		08C112F7FFD0CB88185B583DE7F9CD0D /* 女@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F236484365DE20BA6F84BD8B2A649C9B /* 女@2x.png */; };
+		0D7737DC638940C80B0B53D71B0F322C /* 多边形.png in Resources */ = {isa = PBXBuildFile; fileRef = 8733A00E6D3C9D719161FC1488D7BE17 /* 多边形.png */; };
+		0E64FE4B30E680DFDD64040E2AF168DA /* 向前@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D96D3E3B471FC7DE3A9A3B3BA945D3 /* 向前@3x.png */; };
+		160B7708E66E6A07C4CCC00B81198E36 /* 力度标注@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2029E5754035500284A8B04B62C9C61A /* 力度标注@3x.png */; };
+		167E691AB5CF976D2FF6E3ACBF5DFF3A /* 后退@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F1078673CAC87AA4B84CF9DC8BB30B /* 后退@2x.png */; };
+		1E5516A7E47D2D0581E4BF23C94F6736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F915CAD7A4DC99C94A7822844D8867 /* UIKit.framework */; };
+		1EEF0340845836ACF03A672341A5325C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */; };
+		20091BCB47432257E3BD4FE7F0E4086F /* 颜色右手@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F801E59A47C39EDAD5347286190E7845 /* 颜色右手@3x.png */; };
+		20D22FC20BD0C23FCC1D7BCC87243A2C /* YES@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A56A409D75BFB50A455B9DDDD457E9 /* YES@2x.png */; };
+		27739DF4F8CFDDABB604DEABB6A4EC02 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F174EBC6DFD4E6DBE24D7A1D782F28 /* LOGO.png */; };
+		286B827EDB1F4619B10AB3F93B0625F8 /* 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C2213B6D22067F897D3D189C0E922B /* 4@3x.png */; };
+		2AFEF640D412D34A89CE590FA84151A8 /* 男@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F5A8BB6B8BACAC4152D4C1A72C078F /* 男@3x.png */; };
+		2B336A5525AFF8905BE76FD452335E17 /* 速度标注@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027060F473926E1A948C03EB6457FE87 /* 速度标注@3x.png */; };
+		316FA0D25E56FDAD4708708001ABDD15 /* 颜色男@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E05FA7680AB3B65F547980B34D39D8 /* 颜色男@2x.png */; };
 		342048179CBB85B3D60171B58B2C637E /* Pods-SZEarthFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB2C7930BE5A14068CFAABBC4B36727 /* Pods-SZEarthFramework_Example-dummy.m */; };
+		346F904FC2C333C6B2D6C7AA5D519079 /* 柱形图.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E137E6D40AE004F0B2D63D59F526690 /* 柱形图.png */; };
+		35F301156DD918D9413CB5943CAA0EE5 /* 椭圆点点.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C93CA1F1722646D629323E61998811 /* 椭圆点点.png */; };
+		3D66DEE53D194C6ED5E5CE01B44D9F6C /* 向前@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B6AF4B1B40A5048FAC9F8F00FD160A /* 向前@2x.png */; };
+		42431B1C2C7B93AC7A3E00A708179BF0 /* 0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4042B3355D184FBFE2AEAEF05691D46A /* 0@3x.png */; };
+		43F9105E8D30ED7F4703D3C91CF74532 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AED38AC5A420A6C814FC5C8664E9BA94 /* 1@2x.png */; };
+		45C5B2A4A0BEF4F3DD615B6C631BF798 /* SZEarthFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFA8185C8A050B348F6E81A3AE403363 /* SZEarthFramework.bundle */; };
+		4A8B6464D12673E5D6B85171B04DCC6F /* 下栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DED539798F01F8FD9A72B4B11ECB8EE /* 下栏.png */; };
 		4B0E83E272D5D52804AC1CDE8FFE2E13 /* Pods-SZEarthFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 599B3E6ACA3AAFB57B5564E129955C16 /* Pods-SZEarthFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61A8366E7386D861C4FE991B4BD77CC6 /* SZEarthFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68395BABF86317A3450B7470B9F65F38 /* SZEarthFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9974421D4581F2B7B96EDEE63732C35F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BF2DC28DCFF0A96AA5AB662E52494FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4E797A470320AC804BFB252A97D1B1A6 /* NO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D27C18D727017811A1682499FEFB11 /* NO@2x.png */; };
+		4ECB6F650607111885B0C1D27376E57D /* sounds_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC1E933C514C49B051922088F398D /* sounds_off.png */; };
+		4FA6E82A9D54D27FD126D0574F32D886 /* 向前.png in Resources */ = {isa = PBXBuildFile; fileRef = BF10E08C3A5ADCA5604DC6CA6C62FF41 /* 向前.png */; };
+		4FB92CABE2852157DAB7C40D6A90B0E8 /* 更多@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1476E72B59CB84A7F4D23249323FCF1 /* 更多@3x.png */; };
+		50F796A1E86DA0D09EA745F1EDB1E8E3 /* 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668A0C7E94FA8F888B21A6CAA38902E4 /* 3@3x.png */; };
+		520CA688183E7816585EE67AFAC0E11C /* 男.png in Resources */ = {isa = PBXBuildFile; fileRef = C20447B571501372808FDFAD2DB8E2C9 /* 男.png */; };
+		5291C5DDEA8A58767796BDEF97A7CE6D /* jiangBei.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A34E5B7B4A2352583AFAD4BF13971 /* jiangBei.png */; };
+		53E111B189ABE8DE9201DC30CE506A0E /* 力度标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F073D9FC668FA89D54A251E6FAF42F7 /* 力度标注.png */; };
+		55A14F4487B2C20861C1BF642A630932 /* SZTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C249971F728368F4EDA37496849F05 /* SZTool.m */; };
+		561E77DC1F86AE3DE9E64FB07190BA49 /* YES.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C84ECD1446BB127BADB1619BFC88341 /* YES.png */; };
+		57EBB457D0E8BFD37232A75D060CD034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */; };
+		58701F475A70202A1298278A52CC05EE /* 后退.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA1706F6C824A56C1760A5D890BA54D /* 后退.png */; };
+		5A1E4BC02021AFB01BBFAE9F4924841D /* 颜色男@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD453BCF9A43778CF7CB50974BFACC6 /* 颜色男@3x.png */; };
+		5AD088F6D25CDCEB7946054516F5D4BB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 167182FF42317E5D63A9662D0ADF1B1B /* 1.png */; };
+		5B2BAAB526A1C385AD3EBF45942D6B57 /* 导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C419E72CF906282DE4C2062CBBED0E /* 导航条.png */; };
+		5FEAA2D36FE75FBE738A9F4875D2D783 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA082B479C76BBEDCBE51A071ACB623 /* 0.png */; };
+		60CADA4510073DE60B3565E689853258 /* 开始.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC1C27DBB3FDE2B4A25BA69F83EAEA4 /* 开始.png */; };
+		617FAF4BEED23110E9D8E447CF974B52 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9473D45FB0EED08152EEDF137C3F92 /* 3@2x.png */; };
+		66DC37F166BED1BB1B9C4F4FFD11DE95 /* 右手@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21D8425EF6B90281736910BFAC2C8600 /* 右手@2x.png */; };
+		6B6251E5CEAF13B075537109E869FE28 /* 左手.png in Resources */ = {isa = PBXBuildFile; fileRef = 934642C6DF2EEB3C6602F0B9A62A022A /* 左手.png */; };
+		6FB612C2EAA271846F6386200D159BC2 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86C7892AC7B25F31812CC1F66A385D02 /* 2@2x.png */; };
+		7014510EA4820122B1844F4E587244D5 /* 更多.png in Resources */ = {isa = PBXBuildFile; fileRef = FE29A6A7FDCCFA608676570F663F2A5A /* 更多.png */; };
+		71047FCD1F3B12177154358488A61478 /* btn_start@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E68B1270A9EA1CE8D8CC9C3572FFAB /* btn_start@3x.png */; };
+		7998F94B67277A0FB69429D3D5669F28 /* 速度标注@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E44CA1FBDFE9E2CFFBB02768BA5908 /* 速度标注@2x.png */; };
+		7A35603C336D84C8879BD09BB7A35588 /* 左手@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 721D9D0083FB4F77BE23E9796023759D /* 左手@2x.png */; };
+		7A53A1BD95775EA551BB3CF00E40B517 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D2BD679C60B230E099FA2ED2436538 /* 4.png */; };
+		7C94CB9D40EDFE2C096674542836296E /* 连接失败.png in Resources */ = {isa = PBXBuildFile; fileRef = 422AD890ED22B3586289E4A3CA99A340 /* 连接失败.png */; };
+		7CE0F9367E2B7A098C608C7C1325FFE6 /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B3EE3BCD8B8FDFD5C72A5F1C1AD2EA4 /* 2@3x.png */; };
+		7DDAB27A0172650F5BA8252B29BE6050 /* 右手@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B094E61206FCCEC6EAF51438C0E2213E /* 右手@3x.png */; };
+		856C83B979DC2A97E90AB2A2EC2F0A75 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CEFC086DFCBB79DF96B23818876B6AC /* 4@2x.png */; };
+		8580A3BC7795E94FA5192761B64D8FF4 /* 力度标注@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A95AB144B95F40E60A51D4859EDA0327 /* 力度标注@2x.png */; };
+		8D163451060232311701544DC7A8F0C5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAFBC34B62C44B15476FDEC157FB0DF /* 2.png */; };
+		8D8C1C28A0253A96A32690FD80D1DFFA /* qiupai.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A65DB5F38F0CF4F2AC69DCD95E58C7 /* qiupai.png */; };
+		8E9BA7E5F497497C2D27864ECA03B74C /* 连接设备.png in Resources */ = {isa = PBXBuildFile; fileRef = 6025F6068E11B7F27E4045BA64971251 /* 连接设备.png */; };
+		91A5B8D32247D993D73C48B593B0D3C5 /* LOGO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF7B42651087F884F8283A924702EF4 /* LOGO@2x.png */; };
+		94E3ED3EDB0883155476D45DBCAA5E3A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC90BC784F92524F5CC608B6D54582C /* 3.png */; };
+		970C86314DF236968304653C29958ADD /* 右手.png in Resources */ = {isa = PBXBuildFile; fileRef = E655BD6533C0E7C58760DD48E4A03D69 /* 右手.png */; };
+		99BBA39BBA751346A9414149B53FA1AD /* 统计结果.png in Resources */ = {isa = PBXBuildFile; fileRef = 315539B2589719E056491B8CA21437E9 /* 统计结果.png */; };
+		9AF4C4931A6CFE2F23E4789329504040 /* 颜色女.png in Resources */ = {isa = PBXBuildFile; fileRef = F4025EC5E9AB82BC090974D4B6CC447B /* 颜色女.png */; };
+		9BE6CB705B260B5F5C89D01A111F71FC /* NO@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A15D191620899D7EF5FE18F5C73025 /* NO@3x.png */; };
+		9FAFBF67CCB31C30292825E6AE3F0875 /* btn_finsh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8125BAB669DF2B8EFBB4C56BD00B9D4B /* btn_finsh@2x.png */; };
+		9FEBB86DC718624C02F7991182384744 /* 女.png in Resources */ = {isa = PBXBuildFile; fileRef = 7345C65C88BCCFEE425FA0365F1BF24D /* 女.png */; };
+		A179BF7CA82623370EF5AC5254F82873 /* btn_finsh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2575ADE213D85FBB9360FE7BB67DEEA /* btn_finsh@3x.png */; };
+		A1B9ECBD3D95C6359C9BB1B4C497ACBC /* 颜色右手@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D45843712F4777A1C45BD1913A336C /* 颜色右手@2x.png */; };
+		A6214E745B30CA66BF6CCDCD8C7194C6 /* 女@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD26647B8E1C52D912D3E2D4509C8874 /* 女@3x.png */; };
+		A6C52B5256F3F10B52280D4900EFD8A7 /* 颜色女@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F29CA129683691A0767959B6C3BAC8B /* 颜色女@3x.png */; };
+		B3C9C54FE4CF94992F898DC8493E50E8 /* 左手@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48DF6D9E878D953C40E451EEF0DDF22B /* 左手@3x.png */; };
+		B636A7BD3AB94D9D15C6187C3AF855B4 /* SZTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBA671897224E638E7A6DBD47CFFEE3 /* SZTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E56C53736F71DABD38C370D1AA41F4 /* 前进.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC9D3A7AC68E5DC75404603E19244C5 /* 前进.png */; };
+		B9C8C7047612B29A1B2FB8A71159FCF5 /* 前进@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7ECD35B7ED359B121E63FBAEF502EDF /* 前进@3x.png */; };
+		BF2DC28DCFF0A96AA5AB662E52494FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */; };
+		C0EAEAA0D54A4011CAD6AA55D355368D /* 后退@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8500DABDAA59D93B6764CEEBA45739 /* 后退@3x.png */; };
+		C307CC77E00F5AC9AB151B5F68D7862B /* 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF418F732C3DD1B42292163BB797E82F /* 1@3x.png */; };
+		C5842532CC737888B75D3E4B99A6D283 /* 颜色男.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0EE732CCDD35F5272C593C217090C5 /* 颜色男.png */; };
 		CB26146E7BBE7582A8CD61EC8DC2D7A3 /* Pods-SZEarthFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF12041AD2C3BA3BFEF6DE85C1478DB /* Pods-SZEarthFramework_Tests-dummy.m */; };
+		CBBBAB2016A86B816CDD87351B484886 /* 计时器.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FD4041906C056962931224700495FC /* 计时器.png */; };
+		D192736FDB6E90E7309ED4B7164E0FAB /* btn_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 223530F6430765EB2C777CC9914EA833 /* btn_start.png */; };
 		D50CED700903E00586FAE345BDBFB68E /* Pods-SZEarthFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 280DBA6E1BBAAC8C17B57C8B9BCCF3A0 /* Pods-SZEarthFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB4352EDB101DBF69E2AF5DC1EA709DF /* SZEarthFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 370310AB8E5286C01E7B3CC05E65E286 /* SZEarthFramework-dummy.m */; };
+		D73C86811911741A39EB6EC915613770 /* 速度标注.png in Resources */ = {isa = PBXBuildFile; fileRef = AA01B139993ADC03DC2C2C54C6678566 /* 速度标注.png */; };
+		DE9374041FFA49D0E9AFADFD59375454 /* 单次圆.png in Resources */ = {isa = PBXBuildFile; fileRef = 044BDAF3C02C4288945FB3344138AC87 /* 单次圆.png */; };
+		DF4472B5BCB657A8BADD9B8787D40832 /* 颜色女@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696AE39C9D8F256BC19B89B76D7C5C7B /* 颜色女@2x.png */; };
+		E2BCCD2EACEED3D67381B397E45C265C /* sounds_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C54C193A80ACD548845BEF5CE33AE8E /* sounds_on.png */; };
+		E50768C036787019E15FD3E4E2DC6377 /* YES@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A93DC470CFA9D628BF699F320DE5FDB /* YES@3x.png */; };
+		E66ADB75ED41F3DDFE3A6425F8D5B2FF /* SZEarthFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A234D9656D5059B54A94E1ED2DE8C23 /* SZEarthFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69A1615887148F69DC68861DC5BAC69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A5BACAEB2D40A04637B26529345DA0 /* MapKit.framework */; };
+		EA970D0B4C9147BD3F3C646F699D5D05 /* 前进@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75426EE323CF9C0D2DC24B6D078A2F4A /* 前进@2x.png */; };
+		EC83E3342C9181B7DE654E134117211B /* 更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C80337D0C072AA010267C2DDAFBA0B /* 更多@2x.png */; };
+		ED2A9928F49D7C2FBAD21F38D17FC15F /* 颜色左手@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754A374543AF28D34AF4907D81889C69 /* 颜色左手@3x.png */; };
+		EE99216E387C2B9E5DD577A2087BE6F1 /* 男@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA951D147A9D0F6F4D631C293E2B03B1 /* 男@2x.png */; };
+		F07E18D467BB00E997F278CD3C5A78AD /* SZEarthFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F1112A25B5311104E8EF4CBE50F634 /* SZEarthFramework-dummy.m */; };
+		F52489A606544FDA60910D19E93EB261 /* 颜色左手@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE1339BFDC94598CD65A1834ECECC2 /* 颜色左手@2x.png */; };
+		F9D660B2D4809368096F7F5769A7D6D8 /* btn_finsh.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1D756E0AB4A721C29DA1D354C2AD2 /* btn_finsh.png */; };
+		FAC732AF11099AC98A636128E9897152 /* NO.png in Resources */ = {isa = PBXBuildFile; fileRef = 823EB052FD26B9CF23DFBC8A1E9450E5 /* NO.png */; };
+		FF3762C472514AE498D4B539FAE42CE4 /* 0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BCF77EFD29FFF4315DFDDC5C4DCDBB /* 0@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6322EF36E78A767FA3ED23788B708D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35AC2FC60F055B0A97C4A8BFAAA3E35F;
+			remoteInfo = "SZEarthFramework-SZEarthFramework";
+		};
 		FD064D8FE0AC12F4F92D00D7DDFAF7E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -29,37 +128,130 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1717A47B73F47AEE0BC4C55267EA0DC2 /* Pods_SZEarthFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZEarthFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		027060F473926E1A948C03EB6457FE87 /* 速度标注@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "速度标注@3x.png"; sourceTree = "<group>"; };
+		044BDAF3C02C4288945FB3344138AC87 /* 单次圆.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "单次圆.png"; sourceTree = "<group>"; };
+		0710E6AE5902FB9F4D3E93C9DC5D79E8 /* LOGO@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "LOGO@3x.png"; sourceTree = "<group>"; };
+		09E00C37D761B1CE43D813FCDB5A374F /* SZEarthFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZEarthFramework.xcconfig; sourceTree = "<group>"; };
+		0AF1D756E0AB4A721C29DA1D354C2AD2 /* btn_finsh.png */ = {isa = PBXFileReference; includeInIndex = 1; path = btn_finsh.png; sourceTree = "<group>"; };
+		0E3D2644BCB138BCB5E9FB3D25E3A92B /* ResourceBundle-SZEarthFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SZEarthFramework-Info.plist"; sourceTree = "<group>"; };
+		14C93CA1F1722646D629323E61998811 /* 椭圆点点.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "椭圆点点.png"; sourceTree = "<group>"; };
+		167182FF42317E5D63A9662D0ADF1B1B /* 1.png */ = {isa = PBXFileReference; includeInIndex = 1; path = 1.png; sourceTree = "<group>"; };
+		18A56A409D75BFB50A455B9DDDD457E9 /* YES@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "YES@2x.png"; sourceTree = "<group>"; };
+		1C84ECD1446BB127BADB1619BFC88341 /* YES.png */ = {isa = PBXFileReference; includeInIndex = 1; path = YES.png; sourceTree = "<group>"; };
+		1CAFBC34B62C44B15476FDEC157FB0DF /* 2.png */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.png; sourceTree = "<group>"; };
+		1F073D9FC668FA89D54A251E6FAF42F7 /* 力度标注.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "力度标注.png"; sourceTree = "<group>"; };
+		2029E5754035500284A8B04B62C9C61A /* 力度标注@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "力度标注@3x.png"; sourceTree = "<group>"; };
+		21D8425EF6B90281736910BFAC2C8600 /* 右手@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "右手@2x.png"; sourceTree = "<group>"; };
+		223530F6430765EB2C777CC9914EA833 /* btn_start.png */ = {isa = PBXFileReference; includeInIndex = 1; path = btn_start.png; sourceTree = "<group>"; };
+		23B614FDE66210AF87FCB4F58355DE75 /* Pods_SZEarthFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SZEarthFramework_Tests.framework; path = "Pods-SZEarthFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FD4041906C056962931224700495FC /* 计时器.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "计时器.png"; sourceTree = "<group>"; };
 		280DBA6E1BBAAC8C17B57C8B9BCCF3A0 /* Pods-SZEarthFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SZEarthFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2CEFC086DFCBB79DF96B23818876B6AC /* 4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "4@2x.png"; sourceTree = "<group>"; };
+		2FBA671897224E638E7A6DBD47CFFEE3 /* SZTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SZTool.h; sourceTree = "<group>"; };
 		2FF12041AD2C3BA3BFEF6DE85C1478DB /* Pods-SZEarthFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZEarthFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		370310AB8E5286C01E7B3CC05E65E286 /* SZEarthFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SZEarthFramework-dummy.m"; sourceTree = "<group>"; };
+		315539B2589719E056491B8CA21437E9 /* 统计结果.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "统计结果.png"; sourceTree = "<group>"; };
+		32D2BD679C60B230E099FA2ED2436538 /* 4.png */ = {isa = PBXFileReference; includeInIndex = 1; path = 4.png; sourceTree = "<group>"; };
+		33F1078673CAC87AA4B84CF9DC8BB30B /* 后退@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "后退@2x.png"; sourceTree = "<group>"; };
+		35888BBB0FF9FF0848155A4CF5398279 /* SZEarthFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SZEarthFramework.modulemap; sourceTree = "<group>"; };
+		37C2213B6D22067F897D3D189C0E922B /* 4@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "4@3x.png"; sourceTree = "<group>"; };
 		39195EB427A4532C9666DCF564F3E788 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E137E6D40AE004F0B2D63D59F526690 /* 柱形图.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "柱形图.png"; sourceTree = "<group>"; };
+		4042B3355D184FBFE2AEAEF05691D46A /* 0@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "0@3x.png"; sourceTree = "<group>"; };
+		422AD890ED22B3586289E4A3CA99A340 /* 连接失败.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "连接失败.png"; sourceTree = "<group>"; };
+		42E05FA7680AB3B65F547980B34D39D8 /* 颜色男@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色男@2x.png"; sourceTree = "<group>"; };
+		47C80337D0C072AA010267C2DDAFBA0B /* 更多@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "更多@2x.png"; sourceTree = "<group>"; };
+		48DF6D9E878D953C40E451EEF0DDF22B /* 左手@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "左手@3x.png"; sourceTree = "<group>"; };
+		4C54C193A80ACD548845BEF5CE33AE8E /* sounds_on.png */ = {isa = PBXFileReference; includeInIndex = 1; path = sounds_on.png; sourceTree = "<group>"; };
+		4EFE1339BFDC94598CD65A1834ECECC2 /* 颜色左手@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色左手@2x.png"; sourceTree = "<group>"; };
+		4F29CA129683691A0767959B6C3BAC8B /* 颜色女@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色女@3x.png"; sourceTree = "<group>"; };
+		51A15D191620899D7EF5FE18F5C73025 /* NO@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "NO@3x.png"; sourceTree = "<group>"; };
 		51F7DC814DFC3420CB929BB992867353 /* Pods-SZEarthFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		56D27C18D727017811A1682499FEFB11 /* NO@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "NO@2x.png"; sourceTree = "<group>"; };
+		57F1112A25B5311104E8EF4CBE50F634 /* SZEarthFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SZEarthFramework-dummy.m"; sourceTree = "<group>"; };
+		58B6AF4B1B40A5048FAC9F8F00FD160A /* 向前@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "向前@2x.png"; sourceTree = "<group>"; };
 		599B3E6ACA3AAFB57B5564E129955C16 /* Pods-SZEarthFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SZEarthFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		5B1E9ED9DFEEFAD3128FFE830FD7DA16 /* Pods-SZEarthFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B960C28EA24BC63C87A8A58B2375CCF /* Pods-SZEarthFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZEarthFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		68395BABF86317A3450B7470B9F65F38 /* SZEarthFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZEarthFramework-umbrella.h"; sourceTree = "<group>"; };
+		6025F6068E11B7F27E4045BA64971251 /* 连接设备.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "连接设备.png"; sourceTree = "<group>"; };
+		63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		668A0C7E94FA8F888B21A6CAA38902E4 /* 3@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "3@3x.png"; sourceTree = "<group>"; };
+		696AE39C9D8F256BC19B89B76D7C5C7B /* 颜色女@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色女@2x.png"; sourceTree = "<group>"; };
+		6A93DC470CFA9D628BF699F320DE5FDB /* YES@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "YES@3x.png"; sourceTree = "<group>"; };
+		6B3EE3BCD8B8FDFD5C72A5F1C1AD2EA4 /* 2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "2@3x.png"; sourceTree = "<group>"; };
+		6B58C1618B439C1570405E46F082E6EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA941F61F3CE327189C8685E3D8CBA9 /* 颜色右手.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色右手.png"; sourceTree = "<group>"; };
 		6EEFDC9B3BC195BEB99BDC2FD92DEB47 /* Pods-SZEarthFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Example-resources.sh"; sourceTree = "<group>"; };
-		71792E440C99D1606E5344A0642938B6 /* Pods-SZEarthFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SZEarthFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		6F1DC1E933C514C49B051922088F398D /* sounds_off.png */ = {isa = PBXFileReference; includeInIndex = 1; path = sounds_off.png; sourceTree = "<group>"; };
+		71792E440C99D1606E5344A0642938B6 /* Pods-SZEarthFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SZEarthFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		71D96D3E3B471FC7DE3A9A3B3BA945D3 /* 向前@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "向前@3x.png"; sourceTree = "<group>"; };
+		721D9D0083FB4F77BE23E9796023759D /* 左手@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "左手@2x.png"; sourceTree = "<group>"; };
+		7345C65C88BCCFEE425FA0365F1BF24D /* 女.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "女.png"; sourceTree = "<group>"; };
+		74F915CAD7A4DC99C94A7822844D8867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		75426EE323CF9C0D2DC24B6D078A2F4A /* 前进@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "前进@2x.png"; sourceTree = "<group>"; };
+		754A374543AF28D34AF4907D81889C69 /* 颜色左手@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色左手@3x.png"; sourceTree = "<group>"; };
+		75E68B1270A9EA1CE8D8CC9C3572FFAB /* btn_start@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "btn_start@3x.png"; sourceTree = "<group>"; };
+		7A234D9656D5059B54A94E1ED2DE8C23 /* SZEarthFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZEarthFramework-umbrella.h"; sourceTree = "<group>"; };
+		7DC90BC784F92524F5CC608B6D54582C /* 3.png */ = {isa = PBXFileReference; includeInIndex = 1; path = 3.png; sourceTree = "<group>"; };
+		7DED539798F01F8FD9A72B4B11ECB8EE /* 下栏.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "下栏.png"; sourceTree = "<group>"; };
+		8125BAB669DF2B8EFBB4C56BD00B9D4B /* btn_finsh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "btn_finsh@2x.png"; sourceTree = "<group>"; };
+		823EB052FD26B9CF23DFBC8A1E9450E5 /* NO.png */ = {isa = PBXFileReference; includeInIndex = 1; path = NO.png; sourceTree = "<group>"; };
 		82A97C85A1A7D7C23DAD27B53379365D /* Pods-SZEarthFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZEarthFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		871C1F79FC0E5F8CC8B27CB733D0FF27 /* SZEarthFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZEarthFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C7892AC7B25F31812CC1F66A385D02 /* 2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "2@2x.png"; sourceTree = "<group>"; };
+		8733A00E6D3C9D719161FC1488D7BE17 /* 多边形.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "多边形.png"; sourceTree = "<group>"; };
 		890642012852490631FA3C0010292E8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A4FAA10CF1674EAC7112929CC6AFDDF /* Pods-SZEarthFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SZEarthFramework_Example.modulemap"; sourceTree = "<group>"; };
-		90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZEarthFramework.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A15BFC889E361B657EF3ECA0A5D180E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4FAA10CF1674EAC7112929CC6AFDDF /* Pods-SZEarthFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SZEarthFramework_Example.modulemap"; sourceTree = "<group>"; };
+		8FD453BCF9A43778CF7CB50974BFACC6 /* 颜色男@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色男@3x.png"; sourceTree = "<group>"; };
+		903A34E5B7B4A2352583AFAD4BF13971 /* jiangBei.png */ = {isa = PBXFileReference; includeInIndex = 1; path = jiangBei.png; sourceTree = "<group>"; };
+		934642C6DF2EEB3C6602F0B9A62A022A /* 左手.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "左手.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2575ADE213D85FBB9360FE7BB67DEEA /* btn_finsh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "btn_finsh@3x.png"; sourceTree = "<group>"; };
+		A3F174EBC6DFD4E6DBE24D7A1D782F28 /* LOGO.png */ = {isa = PBXFileReference; includeInIndex = 1; path = LOGO.png; sourceTree = "<group>"; };
+		A5A5BACAEB2D40A04637B26529345DA0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5BCF77EFD29FFF4315DFDDC5C4DCDBB /* 0@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "0@2x.png"; sourceTree = "<group>"; };
+		A6F5A8BB6B8BACAC4152D4C1A72C078F /* 男@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "男@3x.png"; sourceTree = "<group>"; };
+		A95AB144B95F40E60A51D4859EDA0327 /* 力度标注@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "力度标注@2x.png"; sourceTree = "<group>"; };
+		AA01B139993ADC03DC2C2C54C6678566 /* 速度标注.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "速度标注.png"; sourceTree = "<group>"; };
+		AAA082B479C76BBEDCBE51A071ACB623 /* 0.png */ = {isa = PBXFileReference; includeInIndex = 1; path = 0.png; sourceTree = "<group>"; };
 		AAB2C7930BE5A14068CFAABBC4B36727 /* Pods-SZEarthFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZEarthFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		ACA84030672650075748B425D192B537 /* SZEarthFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZEarthFramework-prefix.pch"; sourceTree = "<group>"; };
+		AB8500DABDAA59D93B6764CEEBA45739 /* 后退@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "后退@3x.png"; sourceTree = "<group>"; };
+		AED38AC5A420A6C814FC5C8664E9BA94 /* 1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "1@2x.png"; sourceTree = "<group>"; };
+		AF339396F91635B08EC2E92AA06D1574 /* 颜色左手.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色左手.png"; sourceTree = "<group>"; };
+		AF418F732C3DD1B42292163BB797E82F /* 1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "1@3x.png"; sourceTree = "<group>"; };
+		B094E61206FCCEC6EAF51438C0E2213E /* 右手@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "右手@3x.png"; sourceTree = "<group>"; };
+		B2C419E72CF906282DE4C2062CBBED0E /* 导航条.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "导航条.png"; sourceTree = "<group>"; };
+		B3C249971F728368F4EDA37496849F05 /* SZTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SZTool.m; sourceTree = "<group>"; };
+		B7ECD35B7ED359B121E63FBAEF502EDF /* 前进@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "前进@3x.png"; sourceTree = "<group>"; };
+		B81D12E533D1DBCF254943A0629A369E /* SZEarthFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SZEarthFramework.framework; path = SZEarthFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC39834C111F16FE0CA46E2AF4D36005 /* Pods-SZEarthFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BEE12AFCE5C3651B253C30627B401018 /* Pods_SZEarthFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SZEarthFramework_Example.framework; path = "Pods-SZEarthFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF10E08C3A5ADCA5604DC6CA6C62FF41 /* 向前.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "向前.png"; sourceTree = "<group>"; };
+		C1476E72B59CB84A7F4D23249323FCF1 /* 更多@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "更多@3x.png"; sourceTree = "<group>"; };
 		C1928FD3D31E5FA21BF6E96D462DCDF3 /* Pods-SZEarthFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Tests-resources.sh"; sourceTree = "<group>"; };
-		C7EF0C220846E918D6BA532BF6F6EA86 /* SZEarthFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SZEarthFramework.modulemap; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C20447B571501372808FDFAD2DB8E2C9 /* 男.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "男.png"; sourceTree = "<group>"; };
+		C7A65DB5F38F0CF4F2AC69DCD95E58C7 /* qiupai.png */ = {isa = PBXFileReference; includeInIndex = 1; path = qiupai.png; sourceTree = "<group>"; };
+		CF9473D45FB0EED08152EEDF137C3F92 /* 3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "3@2x.png"; sourceTree = "<group>"; };
+		CFA8185C8A050B348F6E81A3AE403363 /* SZEarthFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SZEarthFramework.bundle; path = SZEarthFramework.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D012AE5081AC28E44DA298473147268E /* Pods-SZEarthFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D9163549F8552661D98E7260E51E25DA /* Pods_SZEarthFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZEarthFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E44CA1FBDFE9E2CFFBB02768BA5908 /* 速度标注@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "速度标注@2x.png"; sourceTree = "<group>"; };
+		DAF7B42651087F884F8283A924702EF4 /* LOGO@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "LOGO@2x.png"; sourceTree = "<group>"; };
+		DD26647B8E1C52D912D3E2D4509C8874 /* 女@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "女@3x.png"; sourceTree = "<group>"; };
+		DDA1706F6C824A56C1760A5D890BA54D /* 后退.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "后退.png"; sourceTree = "<group>"; };
+		DE0EE732CCDD35F5272C593C217090C5 /* 颜色男.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色男.png"; sourceTree = "<group>"; };
+		DEC9D3A7AC68E5DC75404603E19244C5 /* 前进.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "前进.png"; sourceTree = "<group>"; };
 		DEE2D00CE406A044203829970FDFFD0B /* Pods-SZEarthFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZEarthFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DFFEE78AB371A920851427264248D849 /* btn_start@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "btn_start@2x.png"; sourceTree = "<group>"; };
+		E39680ACB2E223498CDFFC13A54EEDD6 /* SZEarthFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZEarthFramework-prefix.pch"; sourceTree = "<group>"; };
+		E655BD6533C0E7C58760DD48E4A03D69 /* 右手.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "右手.png"; sourceTree = "<group>"; };
+		EBC1C27DBB3FDE2B4A25BA69F83EAEA4 /* 开始.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "开始.png"; sourceTree = "<group>"; };
+		F236484365DE20BA6F84BD8B2A649C9B /* 女@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "女@2x.png"; sourceTree = "<group>"; };
+		F3D45843712F4777A1C45BD1913A336C /* 颜色右手@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色右手@2x.png"; sourceTree = "<group>"; };
+		F4025EC5E9AB82BC090974D4B6CC447B /* 颜色女.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色女.png"; sourceTree = "<group>"; };
 		F494CF34ED10881112BE3D5D85DEC51D /* Pods-SZEarthFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZEarthFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F801E59A47C39EDAD5347286190E7845 /* 颜色右手@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "颜色右手@3x.png"; sourceTree = "<group>"; };
 		F9A6F3BD324FF27889E1B568E0BBCCD6 /* Pods-SZEarthFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZEarthFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA951D147A9D0F6F4D631C293E2B03B1 /* 男@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "男@2x.png"; sourceTree = "<group>"; };
 		FBA4D905C6EE95EE50DB28B1F7630297 /* Pods-SZEarthFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZEarthFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE29A6A7FDCCFA608676570F663F2A5A /* 更多.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "更多.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +263,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74C9963F54FFE3BD8698A1D571F018DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9974421D4581F2B7B96EDEE63732C35F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82A618740F76C455E204FF83652BAC16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,9 +271,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94648DB38CEF79E59490205AB03F3AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDCF3151572EB3AD768F72C20D06ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EBB457D0E8BFD37232A75D060CD034 /* Foundation.framework in Frameworks */,
+				E69A1615887148F69DC68861DC5BAC69 /* MapKit.framework in Frameworks */,
+				1E5516A7E47D2D0581E4BF23C94F6736 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05CCCE1D48FC2BD8BD133F69A2E59619 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B58C1618B439C1570405E46F082E6EC /* Info.plist */,
+				0E3D2644BCB138BCB5E9FB3D25E3A92B /* ResourceBundle-SZEarthFramework-Info.plist */,
+				35888BBB0FF9FF0848155A4CF5398279 /* SZEarthFramework.modulemap */,
+				09E00C37D761B1CE43D813FCDB5A374F /* SZEarthFramework.xcconfig */,
+				57F1112A25B5311104E8EF4CBE50F634 /* SZEarthFramework-dummy.m */,
+				E39680ACB2E223498CDFFC13A54EEDD6 /* SZEarthFramework-prefix.pch */,
+				7A234D9656D5059B54A94E1ED2DE8C23 /* SZEarthFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SZEarthFramework";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				509C922CFB50FCD3DB8A08209AD57DDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1285645803732451AEF03501E17BE080 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,81 +323,91 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		186A652DA9EA927DFE89930B149EE7A3 /* SZEarthFramework */ = {
+		3F1803C678A2D9A58B9D57472B46548C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ED94A21215890E0C0DBC0ADDD087F4C2 /* Classes */,
+				8B72474256245CF4798A4C2F6F20B489 /* SZEarthFramework */,
 			);
-			path = SZEarthFramework;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		417BCFD0AF6CB1AC7078603FB3F0FC58 /* SZEarthFramework */ = {
+		509C922CFB50FCD3DB8A08209AD57DDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BD1BB7061C9AD9EE9112B0246F06F16E /* Support Files */,
-				186A652DA9EA927DFE89930B149EE7A3 /* SZEarthFramework */,
-			);
-			name = SZEarthFramework;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4442D56CFB17E54DB8A6987B74F4945F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				417BCFD0AF6CB1AC7078603FB3F0FC58 /* SZEarthFramework */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */,
+				A5A5BACAEB2D40A04637B26529345DA0 /* MapKit.framework */,
+				74F915CAD7A4DC99C94A7822844D8867 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		563016BFA66F959ABFBD6642441C343B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C69744C2073645E18D155FA1A3462019 /* SZEarthFramework */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4442D56CFB17E54DB8A6987B74F4945F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C6E9E40FE77534E52DA1B82461136BDA /* Products */,
+				563016BFA66F959ABFBD6642441C343B /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				81685ED0D0089B491A759FACC31CBA99 /* Products */,
 				1285645803732451AEF03501E17BE080 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		7E066547EC18ACD4BD876660994421A0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				2FBA671897224E638E7A6DBD47CFFEE3 /* SZTool.h */,
+				B3C249971F728368F4EDA37496849F05 /* SZTool.m */,
 			);
-			name = Frameworks;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		BD1BB7061C9AD9EE9112B0246F06F16E /* Support Files */ = {
+		81685ED0D0089B491A759FACC31CBA99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A15BFC889E361B657EF3ECA0A5D180E8 /* Info.plist */,
-				C7EF0C220846E918D6BA532BF6F6EA86 /* SZEarthFramework.modulemap */,
-				90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */,
-				370310AB8E5286C01E7B3CC05E65E286 /* SZEarthFramework-dummy.m */,
-				ACA84030672650075748B425D192B537 /* SZEarthFramework-prefix.pch */,
-				68395BABF86317A3450B7470B9F65F38 /* SZEarthFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SZEarthFramework";
-			sourceTree = "<group>";
-		};
-		C6E9E40FE77534E52DA1B82461136BDA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1717A47B73F47AEE0BC4C55267EA0DC2 /* Pods_SZEarthFramework_Example.framework */,
-				D9163549F8552661D98E7260E51E25DA /* Pods_SZEarthFramework_Tests.framework */,
-				871C1F79FC0E5F8CC8B27CB733D0FF27 /* SZEarthFramework.framework */,
+				BEE12AFCE5C3651B253C30627B401018 /* Pods_SZEarthFramework_Example.framework */,
+				23B614FDE66210AF87FCB4F58355DE75 /* Pods_SZEarthFramework_Tests.framework */,
+				CFA8185C8A050B348F6E81A3AE403363 /* SZEarthFramework.bundle */,
+				B81D12E533D1DBCF254943A0629A369E /* SZEarthFramework.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		880E2E4A9B4A94CA084CD759E80444F0 /* SZEarthFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7E066547EC18ACD4BD876660994421A0 /* Classes */,
+			);
+			name = SZEarthFramework;
+			path = SZEarthFramework;
+			sourceTree = "<group>";
+		};
+		8B72474256245CF4798A4C2F6F20B489 /* SZEarthFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E550FC191A950980B862D3B9BE0B3212 /* Assets */,
+			);
+			name = SZEarthFramework;
+			path = SZEarthFramework;
+			sourceTree = "<group>";
+		};
+		C69744C2073645E18D155FA1A3462019 /* SZEarthFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3F1803C678A2D9A58B9D57472B46548C /* Resources */,
+				05CCCE1D48FC2BD8BD133F69A2E59619 /* Support Files */,
+				880E2E4A9B4A94CA084CD759E80444F0 /* SZEarthFramework */,
+			);
+			name = SZEarthFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF83505716193BB360EE2A57EACC47D6 /* Pods-SZEarthFramework_Example */ = {
@@ -212,11 +446,99 @@
 			path = "Target Support Files/Pods-SZEarthFramework_Tests";
 			sourceTree = "<group>";
 		};
-		ED94A21215890E0C0DBC0ADDD087F4C2 /* Classes */ = {
+		E550FC191A950980B862D3B9BE0B3212 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AAA082B479C76BBEDCBE51A071ACB623 /* 0.png */,
+				A5BCF77EFD29FFF4315DFDDC5C4DCDBB /* 0@2x.png */,
+				4042B3355D184FBFE2AEAEF05691D46A /* 0@3x.png */,
+				167182FF42317E5D63A9662D0ADF1B1B /* 1.png */,
+				AED38AC5A420A6C814FC5C8664E9BA94 /* 1@2x.png */,
+				AF418F732C3DD1B42292163BB797E82F /* 1@3x.png */,
+				1CAFBC34B62C44B15476FDEC157FB0DF /* 2.png */,
+				86C7892AC7B25F31812CC1F66A385D02 /* 2@2x.png */,
+				6B3EE3BCD8B8FDFD5C72A5F1C1AD2EA4 /* 2@3x.png */,
+				7DC90BC784F92524F5CC608B6D54582C /* 3.png */,
+				CF9473D45FB0EED08152EEDF137C3F92 /* 3@2x.png */,
+				668A0C7E94FA8F888B21A6CAA38902E4 /* 3@3x.png */,
+				32D2BD679C60B230E099FA2ED2436538 /* 4.png */,
+				2CEFC086DFCBB79DF96B23818876B6AC /* 4@2x.png */,
+				37C2213B6D22067F897D3D189C0E922B /* 4@3x.png */,
+				0AF1D756E0AB4A721C29DA1D354C2AD2 /* btn_finsh.png */,
+				8125BAB669DF2B8EFBB4C56BD00B9D4B /* btn_finsh@2x.png */,
+				A2575ADE213D85FBB9360FE7BB67DEEA /* btn_finsh@3x.png */,
+				223530F6430765EB2C777CC9914EA833 /* btn_start.png */,
+				DFFEE78AB371A920851427264248D849 /* btn_start@2x.png */,
+				75E68B1270A9EA1CE8D8CC9C3572FFAB /* btn_start@3x.png */,
+				903A34E5B7B4A2352583AFAD4BF13971 /* jiangBei.png */,
+				A3F174EBC6DFD4E6DBE24D7A1D782F28 /* LOGO.png */,
+				DAF7B42651087F884F8283A924702EF4 /* LOGO@2x.png */,
+				0710E6AE5902FB9F4D3E93C9DC5D79E8 /* LOGO@3x.png */,
+				823EB052FD26B9CF23DFBC8A1E9450E5 /* NO.png */,
+				56D27C18D727017811A1682499FEFB11 /* NO@2x.png */,
+				51A15D191620899D7EF5FE18F5C73025 /* NO@3x.png */,
+				C7A65DB5F38F0CF4F2AC69DCD95E58C7 /* qiupai.png */,
+				6F1DC1E933C514C49B051922088F398D /* sounds_off.png */,
+				4C54C193A80ACD548845BEF5CE33AE8E /* sounds_on.png */,
+				1C84ECD1446BB127BADB1619BFC88341 /* YES.png */,
+				18A56A409D75BFB50A455B9DDDD457E9 /* YES@2x.png */,
+				6A93DC470CFA9D628BF699F320DE5FDB /* YES@3x.png */,
+				7DED539798F01F8FD9A72B4B11ECB8EE /* 下栏.png */,
+				DEC9D3A7AC68E5DC75404603E19244C5 /* 前进.png */,
+				75426EE323CF9C0D2DC24B6D078A2F4A /* 前进@2x.png */,
+				B7ECD35B7ED359B121E63FBAEF502EDF /* 前进@3x.png */,
+				1F073D9FC668FA89D54A251E6FAF42F7 /* 力度标注.png */,
+				A95AB144B95F40E60A51D4859EDA0327 /* 力度标注@2x.png */,
+				2029E5754035500284A8B04B62C9C61A /* 力度标注@3x.png */,
+				044BDAF3C02C4288945FB3344138AC87 /* 单次圆.png */,
+				E655BD6533C0E7C58760DD48E4A03D69 /* 右手.png */,
+				21D8425EF6B90281736910BFAC2C8600 /* 右手@2x.png */,
+				B094E61206FCCEC6EAF51438C0E2213E /* 右手@3x.png */,
+				DDA1706F6C824A56C1760A5D890BA54D /* 后退.png */,
+				33F1078673CAC87AA4B84CF9DC8BB30B /* 后退@2x.png */,
+				AB8500DABDAA59D93B6764CEEBA45739 /* 后退@3x.png */,
+				BF10E08C3A5ADCA5604DC6CA6C62FF41 /* 向前.png */,
+				58B6AF4B1B40A5048FAC9F8F00FD160A /* 向前@2x.png */,
+				71D96D3E3B471FC7DE3A9A3B3BA945D3 /* 向前@3x.png */,
+				8733A00E6D3C9D719161FC1488D7BE17 /* 多边形.png */,
+				7345C65C88BCCFEE425FA0365F1BF24D /* 女.png */,
+				F236484365DE20BA6F84BD8B2A649C9B /* 女@2x.png */,
+				DD26647B8E1C52D912D3E2D4509C8874 /* 女@3x.png */,
+				B2C419E72CF906282DE4C2062CBBED0E /* 导航条.png */,
+				934642C6DF2EEB3C6602F0B9A62A022A /* 左手.png */,
+				721D9D0083FB4F77BE23E9796023759D /* 左手@2x.png */,
+				48DF6D9E878D953C40E451EEF0DDF22B /* 左手@3x.png */,
+				EBC1C27DBB3FDE2B4A25BA69F83EAEA4 /* 开始.png */,
+				FE29A6A7FDCCFA608676570F663F2A5A /* 更多.png */,
+				47C80337D0C072AA010267C2DDAFBA0B /* 更多@2x.png */,
+				C1476E72B59CB84A7F4D23249323FCF1 /* 更多@3x.png */,
+				3E137E6D40AE004F0B2D63D59F526690 /* 柱形图.png */,
+				14C93CA1F1722646D629323E61998811 /* 椭圆点点.png */,
+				C20447B571501372808FDFAD2DB8E2C9 /* 男.png */,
+				FA951D147A9D0F6F4D631C293E2B03B1 /* 男@2x.png */,
+				A6F5A8BB6B8BACAC4152D4C1A72C078F /* 男@3x.png */,
+				315539B2589719E056491B8CA21437E9 /* 统计结果.png */,
+				27FD4041906C056962931224700495FC /* 计时器.png */,
+				422AD890ED22B3586289E4A3CA99A340 /* 连接失败.png */,
+				6025F6068E11B7F27E4045BA64971251 /* 连接设备.png */,
+				AA01B139993ADC03DC2C2C54C6678566 /* 速度标注.png */,
+				D3E44CA1FBDFE9E2CFFBB02768BA5908 /* 速度标注@2x.png */,
+				027060F473926E1A948C03EB6457FE87 /* 速度标注@3x.png */,
+				6DA941F61F3CE327189C8685E3D8CBA9 /* 颜色右手.png */,
+				F3D45843712F4777A1C45BD1913A336C /* 颜色右手@2x.png */,
+				F801E59A47C39EDAD5347286190E7845 /* 颜色右手@3x.png */,
+				F4025EC5E9AB82BC090974D4B6CC447B /* 颜色女.png */,
+				696AE39C9D8F256BC19B89B76D7C5C7B /* 颜色女@2x.png */,
+				4F29CA129683691A0767959B6C3BAC8B /* 颜色女@3x.png */,
+				AF339396F91635B08EC2E92AA06D1574 /* 颜色左手.png */,
+				4EFE1339BFDC94598CD65A1834ECECC2 /* 颜色左手@2x.png */,
+				754A374543AF28D34AF4907D81889C69 /* 颜色左手@3x.png */,
+				DE0EE732CCDD35F5272C593C217090C5 /* 颜色男.png */,
+				42E05FA7680AB3B65F547980B34D39D8 /* 颜色男@2x.png */,
+				8FD453BCF9A43778CF7CB50974BFACC6 /* 颜色男@3x.png */,
 			);
-			path = Classes;
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +560,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB0656E0D891AF4DCA119B3820D72A3B /* Headers */ = {
+		FEBF62A314C0EBF0760D0973C04DC4AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A8366E7386D861C4FE991B4BD77CC6 /* SZEarthFramework-umbrella.h in Headers */,
+				E66ADB75ED41F3DDFE3A6425F8D5B2FF /* SZEarthFramework-umbrella.h in Headers */,
+				B636A7BD3AB94D9D15C6187C3AF855B4 /* SZTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,24 +587,43 @@
 			);
 			name = "Pods-SZEarthFramework_Example";
 			productName = "Pods-SZEarthFramework_Example";
-			productReference = 1717A47B73F47AEE0BC4C55267EA0DC2 /* Pods_SZEarthFramework_Example.framework */;
+			productReference = BEE12AFCE5C3651B253C30627B401018 /* Pods_SZEarthFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D987AE7193EEA4190CBBC2C60892B26 /* SZEarthFramework */ = {
+		35AC2FC60F055B0A97C4A8BFAAA3E35F /* SZEarthFramework-SZEarthFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E158F61083F1CDF75DFCA1E2304F2E60 /* Build configuration list for PBXNativeTarget "SZEarthFramework" */;
+			buildConfigurationList = 7384514526CEFEF8277BA6D59DA61DA5 /* Build configuration list for PBXNativeTarget "SZEarthFramework-SZEarthFramework" */;
 			buildPhases = (
-				0E0FA60B7E4FDA30ECCA6FEC755D1E2A /* Sources */,
-				74C9963F54FFE3BD8698A1D571F018DD /* Frameworks */,
-				EB0656E0D891AF4DCA119B3820D72A3B /* Headers */,
+				6D4702CAFA76D57BC03BA94636403D71 /* Sources */,
+				94648DB38CEF79E59490205AB03F3AF5 /* Frameworks */,
+				7EAAA72FB89FDF2E16AD4AD79C8407A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "SZEarthFramework-SZEarthFramework";
+			productName = "SZEarthFramework-SZEarthFramework";
+			productReference = CFA8185C8A050B348F6E81A3AE403363 /* SZEarthFramework.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9D987AE7193EEA4190CBBC2C60892B26 /* SZEarthFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E158F61083F1CDF75DFCA1E2304F2E60 /* Build configuration list for PBXNativeTarget "SZEarthFramework" */;
+			buildPhases = (
+				5F7C39ABAEF12935140BDC14C81A5C5A /* Sources */,
+				BFDCF3151572EB3AD768F72C20D06ADC /* Frameworks */,
+				6ED1EA191D00DE32CFCA1CF7E17FFB83 /* Resources */,
+				FEBF62A314C0EBF0760D0973C04DC4AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BAAFC3292F1D9E4CC4DB2E3C6F14E6 /* PBXTargetDependency */,
+			);
 			name = SZEarthFramework;
 			productName = SZEarthFramework;
-			productReference = 871C1F79FC0E5F8CC8B27CB733D0FF27 /* SZEarthFramework.framework */;
+			productReference = B81D12E533D1DBCF254943A0629A369E /* SZEarthFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E7E5ABC14B3EA27F89F17A13D445726E /* Pods-SZEarthFramework_Tests */ = {
@@ -298,7 +640,7 @@
 			);
 			name = "Pods-SZEarthFramework_Tests";
 			productName = "Pods-SZEarthFramework_Tests";
-			productReference = D9163549F8552661D98E7260E51E25DA /* Pods_SZEarthFramework_Tests.framework */;
+			productReference = 23B614FDE66210AF87FCB4F58355DE75 /* Pods_SZEarthFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -318,31 +660,138 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C6E9E40FE77534E52DA1B82461136BDA /* Products */;
+			productRefGroup = 81685ED0D0089B491A759FACC31CBA99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				288B429B9E17AD353BD99B93167D2C98 /* Pods-SZEarthFramework_Example */,
 				E7E5ABC14B3EA27F89F17A13D445726E /* Pods-SZEarthFramework_Tests */,
 				9D987AE7193EEA4190CBBC2C60892B26 /* SZEarthFramework */,
+				35AC2FC60F055B0A97C4A8BFAAA3E35F /* SZEarthFramework-SZEarthFramework */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		0E0FA60B7E4FDA30ECCA6FEC755D1E2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		6ED1EA191D00DE32CFCA1CF7E17FFB83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4352EDB101DBF69E2AF5DC1EA709DF /* SZEarthFramework-dummy.m in Sources */,
+				45C5B2A4A0BEF4F3DD615B6C631BF798 /* SZEarthFramework.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EAAA72FB89FDF2E16AD4AD79C8407A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEAA2D36FE75FBE738A9F4875D2D783 /* 0.png in Resources */,
+				FF3762C472514AE498D4B539FAE42CE4 /* 0@2x.png in Resources */,
+				42431B1C2C7B93AC7A3E00A708179BF0 /* 0@3x.png in Resources */,
+				5AD088F6D25CDCEB7946054516F5D4BB /* 1.png in Resources */,
+				43F9105E8D30ED7F4703D3C91CF74532 /* 1@2x.png in Resources */,
+				C307CC77E00F5AC9AB151B5F68D7862B /* 1@3x.png in Resources */,
+				8D163451060232311701544DC7A8F0C5 /* 2.png in Resources */,
+				6FB612C2EAA271846F6386200D159BC2 /* 2@2x.png in Resources */,
+				7CE0F9367E2B7A098C608C7C1325FFE6 /* 2@3x.png in Resources */,
+				94E3ED3EDB0883155476D45DBCAA5E3A /* 3.png in Resources */,
+				617FAF4BEED23110E9D8E447CF974B52 /* 3@2x.png in Resources */,
+				50F796A1E86DA0D09EA745F1EDB1E8E3 /* 3@3x.png in Resources */,
+				7A53A1BD95775EA551BB3CF00E40B517 /* 4.png in Resources */,
+				856C83B979DC2A97E90AB2A2EC2F0A75 /* 4@2x.png in Resources */,
+				286B827EDB1F4619B10AB3F93B0625F8 /* 4@3x.png in Resources */,
+				F9D660B2D4809368096F7F5769A7D6D8 /* btn_finsh.png in Resources */,
+				9FAFBF67CCB31C30292825E6AE3F0875 /* btn_finsh@2x.png in Resources */,
+				A179BF7CA82623370EF5AC5254F82873 /* btn_finsh@3x.png in Resources */,
+				D192736FDB6E90E7309ED4B7164E0FAB /* btn_start.png in Resources */,
+				05FB45821CA976AAADC5CC5986827CEE /* btn_start@2x.png in Resources */,
+				71047FCD1F3B12177154358488A61478 /* btn_start@3x.png in Resources */,
+				5291C5DDEA8A58767796BDEF97A7CE6D /* jiangBei.png in Resources */,
+				27739DF4F8CFDDABB604DEABB6A4EC02 /* LOGO.png in Resources */,
+				91A5B8D32247D993D73C48B593B0D3C5 /* LOGO@2x.png in Resources */,
+				014B0E013559E08A98816F0C2FB411E0 /* LOGO@3x.png in Resources */,
+				FAC732AF11099AC98A636128E9897152 /* NO.png in Resources */,
+				4E797A470320AC804BFB252A97D1B1A6 /* NO@2x.png in Resources */,
+				9BE6CB705B260B5F5C89D01A111F71FC /* NO@3x.png in Resources */,
+				8D8C1C28A0253A96A32690FD80D1DFFA /* qiupai.png in Resources */,
+				4ECB6F650607111885B0C1D27376E57D /* sounds_off.png in Resources */,
+				E2BCCD2EACEED3D67381B397E45C265C /* sounds_on.png in Resources */,
+				561E77DC1F86AE3DE9E64FB07190BA49 /* YES.png in Resources */,
+				20D22FC20BD0C23FCC1D7BCC87243A2C /* YES@2x.png in Resources */,
+				E50768C036787019E15FD3E4E2DC6377 /* YES@3x.png in Resources */,
+				4A8B6464D12673E5D6B85171B04DCC6F /* 下栏.png in Resources */,
+				B7E56C53736F71DABD38C370D1AA41F4 /* 前进.png in Resources */,
+				EA970D0B4C9147BD3F3C646F699D5D05 /* 前进@2x.png in Resources */,
+				B9C8C7047612B29A1B2FB8A71159FCF5 /* 前进@3x.png in Resources */,
+				53E111B189ABE8DE9201DC30CE506A0E /* 力度标注.png in Resources */,
+				8580A3BC7795E94FA5192761B64D8FF4 /* 力度标注@2x.png in Resources */,
+				160B7708E66E6A07C4CCC00B81198E36 /* 力度标注@3x.png in Resources */,
+				DE9374041FFA49D0E9AFADFD59375454 /* 单次圆.png in Resources */,
+				970C86314DF236968304653C29958ADD /* 右手.png in Resources */,
+				66DC37F166BED1BB1B9C4F4FFD11DE95 /* 右手@2x.png in Resources */,
+				7DDAB27A0172650F5BA8252B29BE6050 /* 右手@3x.png in Resources */,
+				58701F475A70202A1298278A52CC05EE /* 后退.png in Resources */,
+				167E691AB5CF976D2FF6E3ACBF5DFF3A /* 后退@2x.png in Resources */,
+				C0EAEAA0D54A4011CAD6AA55D355368D /* 后退@3x.png in Resources */,
+				4FA6E82A9D54D27FD126D0574F32D886 /* 向前.png in Resources */,
+				3D66DEE53D194C6ED5E5CE01B44D9F6C /* 向前@2x.png in Resources */,
+				0E64FE4B30E680DFDD64040E2AF168DA /* 向前@3x.png in Resources */,
+				0D7737DC638940C80B0B53D71B0F322C /* 多边形.png in Resources */,
+				9FEBB86DC718624C02F7991182384744 /* 女.png in Resources */,
+				08C112F7FFD0CB88185B583DE7F9CD0D /* 女@2x.png in Resources */,
+				A6214E745B30CA66BF6CCDCD8C7194C6 /* 女@3x.png in Resources */,
+				5B2BAAB526A1C385AD3EBF45942D6B57 /* 导航条.png in Resources */,
+				6B6251E5CEAF13B075537109E869FE28 /* 左手.png in Resources */,
+				7A35603C336D84C8879BD09BB7A35588 /* 左手@2x.png in Resources */,
+				B3C9C54FE4CF94992F898DC8493E50E8 /* 左手@3x.png in Resources */,
+				60CADA4510073DE60B3565E689853258 /* 开始.png in Resources */,
+				7014510EA4820122B1844F4E587244D5 /* 更多.png in Resources */,
+				EC83E3342C9181B7DE654E134117211B /* 更多@2x.png in Resources */,
+				4FB92CABE2852157DAB7C40D6A90B0E8 /* 更多@3x.png in Resources */,
+				346F904FC2C333C6B2D6C7AA5D519079 /* 柱形图.png in Resources */,
+				35F301156DD918D9413CB5943CAA0EE5 /* 椭圆点点.png in Resources */,
+				520CA688183E7816585EE67AFAC0E11C /* 男.png in Resources */,
+				EE99216E387C2B9E5DD577A2087BE6F1 /* 男@2x.png in Resources */,
+				2AFEF640D412D34A89CE590FA84151A8 /* 男@3x.png in Resources */,
+				99BBA39BBA751346A9414149B53FA1AD /* 统计结果.png in Resources */,
+				CBBBAB2016A86B816CDD87351B484886 /* 计时器.png in Resources */,
+				7C94CB9D40EDFE2C096674542836296E /* 连接失败.png in Resources */,
+				8E9BA7E5F497497C2D27864ECA03B74C /* 连接设备.png in Resources */,
+				D73C86811911741A39EB6EC915613770 /* 速度标注.png in Resources */,
+				7998F94B67277A0FB69429D3D5669F28 /* 速度标注@2x.png in Resources */,
+				2B336A5525AFF8905BE76FD452335E17 /* 速度标注@3x.png in Resources */,
+				0748929D9089C0D3EAF31F623AFB7576 /* 颜色右手.png in Resources */,
+				A1B9ECBD3D95C6359C9BB1B4C497ACBC /* 颜色右手@2x.png in Resources */,
+				20091BCB47432257E3BD4FE7F0E4086F /* 颜色右手@3x.png in Resources */,
+				9AF4C4931A6CFE2F23E4789329504040 /* 颜色女.png in Resources */,
+				DF4472B5BCB657A8BADD9B8787D40832 /* 颜色女@2x.png in Resources */,
+				A6C52B5256F3F10B52280D4900EFD8A7 /* 颜色女@3x.png in Resources */,
+				0426095ADB6A9CA72C8A0DC3E7BDFEE7 /* 颜色左手.png in Resources */,
+				F52489A606544FDA60910D19E93EB261 /* 颜色左手@2x.png in Resources */,
+				ED2A9928F49D7C2FBAD21F38D17FC15F /* 颜色左手@3x.png in Resources */,
+				C5842532CC737888B75D3E4B99A6D283 /* 颜色男.png in Resources */,
+				316FA0D25E56FDAD4708708001ABDD15 /* 颜色男@2x.png in Resources */,
+				5A1E4BC02021AFB01BBFAE9F4924841D /* 颜色男@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		10BF5883F8571E51CA18983D0773B7BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				342048179CBB85B3D60171B58B2C637E /* Pods-SZEarthFramework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7C39ABAEF12935140BDC14C81A5C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07E18D467BB00E997F278CD3C5A78AD /* SZEarthFramework-dummy.m in Sources */,
+				55A14F4487B2C20861C1BF642A630932 /* SZTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +803,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D4702CAFA76D57BC03BA94636403D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		20BAAFC3292F1D9E4CC4DB2E3C6F14E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SZEarthFramework-SZEarthFramework";
+			target = 35AC2FC60F055B0A97C4A8BFAAA3E35F /* SZEarthFramework-SZEarthFramework */;
+			targetProxy = 6322EF36E78A767FA3ED23788B708D8D /* PBXContainerItemProxy */;
+		};
 		CF20583DBD927A3CCA143C1AF90CF8B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SZEarthFramework;
@@ -520,6 +982,23 @@
 			};
 			name = Debug;
 		};
+		A0A4A51C0B37B5E2AC6CFD22E2C13D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E00C37D761B1CE43D813FCDB5A374F /* SZEarthFramework.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SZEarthFramework";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SZEarthFramework/ResourceBundle-SZEarthFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SZEarthFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		A712B0D3E1AAA8E60C3F6E718BA3032E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B1E9ED9DFEEFAD3128FFE830FD7DA16 /* Pods-SZEarthFramework_Example.release.xcconfig */;
@@ -557,7 +1036,7 @@
 		};
 		B7634E429DD9204D5A96459278FF09C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */;
+			baseConfigurationReference = 09E00C37D761B1CE43D813FCDB5A374F /* SZEarthFramework.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -621,9 +1100,26 @@
 			};
 			name = Debug;
 		};
+		CD3E2FD2650E5A673C395E4041A13455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E00C37D761B1CE43D813FCDB5A374F /* SZEarthFramework.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SZEarthFramework";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SZEarthFramework/ResourceBundle-SZEarthFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SZEarthFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		EFFF9D4AB9B4A9A4098711077EAE4250 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90F2B904CAE1CCE57CD2858BDF868DD2 /* SZEarthFramework.xcconfig */;
+			baseConfigurationReference = 09E00C37D761B1CE43D813FCDB5A374F /* SZEarthFramework.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -669,6 +1165,15 @@
 			buildConfigurations = (
 				BB883D2F20B55AAF0C4F2FCD4875113F /* Debug */,
 				A712B0D3E1AAA8E60C3F6E718BA3032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7384514526CEFEF8277BA6D59DA61DA5 /* Build configuration list for PBXNativeTarget "SZEarthFramework-SZEarthFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E2FD2650E5A673C395E4041A13455 /* Debug */,
+				A0A4A51C0B37B5E2AC6CFD22E2C13D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
